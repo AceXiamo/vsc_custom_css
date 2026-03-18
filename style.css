@@ -1,0 +1,13 @@
+.monaco-workbench .editor-group-watermark > .letterpress {
+  background-image: url('https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+}
+
+/* 隐藏原版文字/残影如果需要 */
+.monaco-workbench .editor-group-watermark > .letterpress > div {
+  display: none !important;
+}
